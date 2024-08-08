@@ -1,0 +1,28 @@
+.cardd{
+    img{
+        height: 400px;
+        width: 350px;
+    }
+    p{
+        color: red;
+        font-size: 26px;
+    }
+    h5{
+        color: rgb(54, 50, 50);
+    }
+}
+.cardd-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    margin-top: 40px;
+}
+.newarriweal{
+  h2{
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+  }  
+    
+}

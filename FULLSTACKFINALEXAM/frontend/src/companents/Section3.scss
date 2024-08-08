@@ -1,0 +1,39 @@
+.section3__all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.para{
+    width: 390px;
+    height: 130px;
+    p{
+        color: gray;
+        font-size: 17px;
+    }
+}
+.shopnow{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    // border: 1px solid red;
+    background-color: gray;
+    color:white;
+}
+.section3__all__left{
+    h2{
+        font-size: 65px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .section3__all{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
+  p:hover{
+    color: red;
+  }

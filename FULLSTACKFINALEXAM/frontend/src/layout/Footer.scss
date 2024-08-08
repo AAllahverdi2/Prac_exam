@@ -1,0 +1,24 @@
+.footer__all{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    &__img{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__all{
+    display: flex;
+    flex-direction: column;
+
+  }
+  }
+  
